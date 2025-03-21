@@ -1,9 +1,11 @@
+上传文件到缓冲区
 git add .
 git add *
 git add "文件名"
-
-上传文件
-
-git commit 
-提交文件
-
+本地提交
+git commit
+本地信息建立 
+git config --global user.name ""
+git config --global user.email 222@qq.com
+提交到github
+git push origin master
