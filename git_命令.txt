@@ -1,15 +1,21 @@
-上传文件到缓冲区
+1.上传文件到缓冲区
 git add .
 git add *
 git add "文件名"
-本地提交
+2.本地提交
 git commit
-本地信息建立 
+3.本地信息建立 
 git config --global user.name ""
 git config --global user.email 222@qq.com
-提交到github
+4.提交到github
 git push origin master
-将本地仓库与远程仓库连接
+5.将本地仓库与远程仓库连接
 git remote add origin "https:adasdadada/.git"
-拉取远程仓库并由此更新本地仓库
-git pull origin master(main)
+6.拉取远程仓库并由此更新本地仓库（即同步远程仓库并加入自己本地新加的部分）
+	(1)git pull origin master(main)
+	(2)git add *
+	(3)git commit -m"描述"
+	(4)git push origin master
+	(5)查看一下是否成功
+
+
